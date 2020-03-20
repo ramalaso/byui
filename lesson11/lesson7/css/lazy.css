@@ -1,0 +1,26 @@
+* {
+    font-family: 'Odibee Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid picture {
+    display: grid;
+    justify-content: center;
+    padding: 5px;
+    grid-template-columns: (300px,2fr);
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 4s;
+    width: 800px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}

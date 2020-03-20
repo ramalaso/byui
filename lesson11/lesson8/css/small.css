@@ -1,0 +1,374 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    background-color: white;
+    color: black;
+}
+
+#alert {
+    display:block;
+    text-align: center;
+    padding: .5rem 0;
+    background-color: white;
+    width:100%;
+}
+#alert > p {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    height: 6rem;
+    padding: .5rem;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 .3rem #120F00;
+    color: white;
+}
+header div {
+    display:flex;
+}
+
+header section {
+    text-align: center;
+    margin:auto 0;
+    flex: 0.9;
+}
+header img {
+    flex: .1;
+    margin:auto 0;
+    display:block;
+    height:4rem;
+}
+
+header h1, header h4 {
+    margin: 0;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color:white;
+}
+
+nav {
+    background-color: rgb(65, 68, 65);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(228,214,139,0.3);
+}
+
+nav ul li a:hover {background-color: black}
+
+nav ul li.active a{
+    background-color: rgba(18,15,0,0.2);
+    font-weight: bold;
+}
+
+nav ul.hide {display: none;}
+
+main {
+    text-align: center;
+}
+
+main section {
+    background-color: white;
+    margin: .5rem .3rem;
+    padding: .7rem;
+    text-align: start;
+}
+
+#hero {
+    position: relative;
+}
+
+#heroimg {
+    display:block;
+    width:100%;
+    height: auto;
+    margin: auto;
+    box-shadow: 10px 10px 5px black;
+}
+
+#hero div {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    display: grid;
+    grid-template-columns: 6.5rem 3.5rem;
+    background-color: rgba(18, 15, 0, 0.705);
+    padding: .5rem 0;
+    color: white;
+    box-shadow:20px 20px 50px 15px black;  
+}
+
+#hero div h4 {
+    grid-column-start: span 2;
+    justify-self: center;
+    margin: 0;
+}
+
+#hero div p {
+    margin: 0;
+}
+
+#hero div p.left {
+    justify-self:end;
+    margin-right: .4rem;
+}
+
+#forecast {
+    display: none;
+    justify-content: center;
+    grid-template-columns: 8rem 8rem 8rem 8rem 8rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 70%;
+    margin: 40px auto;
+}
+
+#forecast h2 {
+    grid-column-start: span 5;
+    justify-self: center;
+}
+
+#forecast h3 {
+    justify-self: center;
+}
+
+div.weather img {
+    display:block;
+    max-width: 7rem;
+    margin: 0 auto;
+}
+
+div.temp {
+    font-size: 2.3rem;
+    justify-self: center;
+    margin-bottom: 1rem;
+}
+
+img.authorpic {
+    width:100%;
+    max-width: 640px;
+    float:right;
+    border-radius: 5px;
+}
+
+#map {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: .5rem;
+}
+footer p {
+    margin: 0;
+}
+#byulink {
+    color: yellow;
+}
+
+.thegallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+.grid figure img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+img[data-src] {
+    filter: blur(5px);
+    border-radius: 5px;
+}
+img {
+    filter: blur(0px);
+    transition: filter 5s;
+    border-radius: 5px;
+}
+figure{
+    text-align: center;
+}
+
+.containerForm {
+max-width: 400px;
+width: 100%;
+margin: 20px auto;
+position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="number"],
+#contact input[type="date"],
+#contact input[type="range"],
+#contact select,
+#contact textarea,
+#contact button[type="submit"] {
+font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact label {
+    text-align: left;
+}
+#contact {
+background: #F9F9F9;
+padding: 25px;
+margin: 15px 0;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+height: auto;
+}
+
+#contact h3 {
+display: block;
+font-size: 30px;
+font-weight: 300;
+margin-bottom: 10px;
+}
+
+#contact h4, .dangerContainer {
+margin: 5px 0 15px;
+display: block;
+font-size: 13px;
+font-weight: 400;
+}
+
+fieldset {
+border: medium none !important;
+margin: 0 0 10px;
+min-width: 100%;
+padding: 0;
+width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="number"],
+#contact input[type="date"],
+#contact input[type="range"],
+#contact select,
+#contact textarea {
+width: 100%;
+text-align: left;
+border: 1px solid #ccc;
+background: #FFF;
+margin: 0 0 5px;
+padding: 10px;
+}
+
+.danger {
+    display: block;
+    padding: 10px;
+}
+
+.dangerContainer {
+     border: solid #ccc 1px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="number"]:hover,
+#contact input[type="date"]:hover,
+#contact input[type="range"]:hover,
+#contact select:hover,
+#contact textarea:hover {
+-webkit-transition: border-color 0.3s ease-in-out;
+-moz-transition: border-color 0.3s ease-in-out;
+transition: border-color 0.3s ease-in-out;
+border: 1px solid black;
+}
+
+#contact textarea {
+height: 100px;
+max-width: 100%;
+resize: none;
+}
+
+#contact button[type="submit"] {
+cursor: pointer;
+width: 100%;
+border: none;
+background: #4CAF50;
+color: #FFF;
+margin: 0 0 5px;
+padding: 10px;
+font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+background: #43A047;
+-webkit-transition: background 0.3s ease-in-out;
+-moz-transition: background 0.3s ease-in-out;
+transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+outline: 0;
+border: 1px solid #aaa;
+}
+
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
