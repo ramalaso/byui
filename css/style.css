@@ -1,0 +1,80 @@
+
+header, nav, main, footer {
+    margin: 1.25rem auto;
+    max-width: 900px;
+    height: 100px;
+}
+.mainheader {
+    font-size: 40px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    height: 100px;
+}
+header img {
+    position: relative;
+    top: 30px;
+    left: -30px;
+}
+#myname {
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    position: absolute;
+    right: 650px;;
+}
+main{
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    height: 550px;
+}
+
+.mainportal {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    height: 450px;
+}
+
+.design {
+    color: white;
+    background-color: black;
+}
+
+header, footer {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;;
+}
+
+footer {
+    height: 60px;
+}
+img {
+    width: 250px;
+    float: right;
+    position: absolute;
+    border-radius: 5px;
+}
+
+#contrast, #allignment, #proximity {
+    height: 250px;
+    float: none;
+    position: relative;
+} 
+
+.contrast, .allignment, .proximity {
+    height: 550px;
+    text-align: center;
+    border-radius: 10px;;
+
+} 
+
+.contrast {
+    border: 1px black solid;
+}
+
+.proximity {
+    color: white;
+}

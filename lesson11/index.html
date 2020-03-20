@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="lesson9/css/small.css" rel="stylesheet">
+        <link href="lesson9/css/medium.css" rel="stylesheet">
+        <link href="lesson9/css/large.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <script src="lesson9/js/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <title>Bolivian Weather Center</title>
+    </head>
+    
+    <body>
+        <header >
+            <div>
+                <img src="images/logo.jpg" alt="logo">
+                <section>
+                    <h1>Bolivian Weather Center</h1> 
+                    <h2>Weather Information in Bolivia</h2>
+                </section>
+            </div>
+        </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="pureNav" class="hidden">
+                <li><a href="lesson11/index.html">Home</a></li>
+                <li><a href="lesson11/preston-10.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="lesson8/stormcenter.html">Storm Center</a></li>
+                <li><a href="lesson7/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="cards"></div>
+            <section>
+                <img class="authorpic" src="images/tiwanaku.jpg" alt="More rocks">
+                <h3>Tiwanaku, La Paz</h3>
+                <p>
+                    (Spanish spellings: Tiahuanaco and Tiahuanacu) is an important Pre-Columbian archaeological site. Tiwanaku is recognized by Andean scholars as one of the most important precursors to the Inca Empire, flourishing as the ritual and administrative capital of a major state power for approximately five hundred years. The ruins of the ancient city state are near the south-eastern shore of Lake Titicaca, about 72 km (44 miles) west of La Paz.
+                What to See
+                The remains of a Pre-Incan civilization. This monumental city in the Bolivian highlands 13,000 feet above sea level and one of 754 recognized World Heritage Sites, Tiwanaku is surrounded by mountain ranges, with Lake Titicaca on its west side. The massive, solid blocks of a stone not indigenous to the flat plateau give rise to the site's nickname, "the Stonehenge of the Americas". The museum contains most of the amazing things built by the Tiwanakan people. A skeleton was recovered that is about 13,000 years old. This place is quite magical.
+
+                What to Do
+                Take as many pictures as you can. This site is beautiful, the architecture and style is impressive.
+
+                Things to Buy
+                Many indigenous women will be selling pottery, scarves, clothes, crafts and other handmade things. They do not really charge much, and these items are worth it for the price. You'll probably only come here once in your life, so you might want to make sure to buy things you'll have to remember.
+                </p>
+            </section>
+        </main>
+        <footer class="design">
+            &copy; <span id="currentDate"></span> | Raul M. Laredo Soria | Idaho | <a href="https://www.byui.edu/online"
+                id="byulink">BYUI
+                Online Learning</a>
+            <br /> Last Updated: <span id="lastUpdated"></span>
+            <script src="js/date.js"></script>
+        </footer>
+    <script src="js/TownData.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/lazy.js" defer></script>
+    </body>
+    </html>

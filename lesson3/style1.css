@@ -1,0 +1,139 @@
+
+
+header, nav, main, footer {
+    margin: 1.25rem auto;
+    max-width: 900px;
+    height: 100px;
+}
+.mainheader {
+    font-size: 40px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    height: 100px;
+}
+header img {
+    position: relative;
+    top: 30px;
+    left: -30px;
+}
+#myname {
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    position: absolute;
+    right: 650px;;
+}
+main{
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    height: 630px;
+}
+
+.mainportal {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    height: 250px;
+}
+
+.design {
+    color: white;
+    background-color: black;
+}
+
+header, footer {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;;
+}
+
+footer {
+    height: 60px;
+}
+img {
+    width: 300px;
+    float: right;
+    position: absolute;
+    border-radius: 5px;
+}
+
+#contrast, #allignment, #proximity {
+    height: 250px;
+    float: none;
+    position: relative;
+} 
+
+.contrast, .allignment, .proximity {
+    height: 550px;
+    text-align: center;
+    border-radius: 10px;;
+
+} 
+
+.contrast {
+    border: 1px black solid;
+}
+
+.proximity {
+    color: white;
+}
+
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:220px;
+}
+.dropdownmenu a {
+	background: #30A6E6;
+	color: #FFFFFF;
+	display: block;
+	font: bold 18px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.dropdownmenu li:hover a {
+	background: #000000;
+}
+#submenu {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	visibility: hidden;
+	z-index: 1;
+}
+li:hover ul#submenu {
+	opacity: 1;
+	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	visibility: visible;
+}
+#submenu li {
+	float: none;
+	width: 100%;
+}
+#submenu a:hover {
+	background: #DF4B05;
+}
+#submenu a {
+	background-color:#000000;
+}
+.scheme {
+    width: 50%;
+}
