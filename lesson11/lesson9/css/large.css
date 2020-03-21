@@ -21,6 +21,10 @@
         margin: auto;
     }
 
+    footer {
+        padding: 2rem;
+    }
+
     main {
         width: 80%;
         padding: 0;

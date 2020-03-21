@@ -19,11 +19,14 @@
         margin: auto;
     }
 
+    footer {
+        padding: 2rem;
+    }
+
     main, #contact {
         width: 80%;
         padding: 0;
         margin: auto;
     }
-    
 
 } /*end large */

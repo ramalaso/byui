@@ -104,6 +104,7 @@ main section {
     width:100%;
     margin: auto;
     box-shadow: 10px 10px 5px black;
+    border-radius: 10px;
 }
 
 #hero div {
@@ -215,4 +216,13 @@ footer p {
 }
 #byulink {
     color: yellow;
+}
+
+div.events {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    border: solid black 10px;
+    box-shadow:20px 20px 60px 20px rgb(71, 65, 65);  
 }
